@@ -1,0 +1,46 @@
+﻿#basketContainer, #usersContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    #basketContainer table, #usersContainer table {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #basketContainer tr:nth-child(2n+1), #usersContainer tr:nth-child(2n+1) {
+        background-color: #eee;
+    }
+
+    #basketContainer tr:nth-child(1), #basketContainer tr:last-child {
+        background-image: linear-gradient(#fad200,#fab700);
+    }
+
+    #usersContainer tr:nth-child(1) {
+        background-image: linear-gradient(#009cfa,#0079fa);
+        color: white;
+    }
+
+    #basketContainer td, #basketContainer th, #usersContainer td, #usersContainer th {
+        padding: 15px;
+    }
+
+.tableName {
+    font-weight: bold;
+}
+
+td > * {
+    width: 80%;
+    text-align: center;
+}
+
+#buttonOrder {
+    background-color: rgb(39, 190, 51);
+    width: 100%;
+}
+
+#buttonOrder:hover {
+    background-color: rgb(91, 211, 101);
+}

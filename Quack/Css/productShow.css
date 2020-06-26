@@ -1,0 +1,51 @@
+﻿#productTop {
+    display: flex;
+    margin: 30px;
+}
+
+#productImages {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#productOrder {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.productSlider {
+    width: 400px;
+}
+
+.colorful {
+    background-color: #e6d268;
+}
+
+.basketPanel {
+    display: inline-block;
+}
+
+#basketPanel #basketAddButton {
+    background-color: rgb(39, 190, 51);
+    margin-right: 10px;
+}
+
+    #basketPanel #basketAddButton:hover {
+        background-color: rgb(91, 211, 101);
+    }
+
+#basketCount {
+    padding: 5px;
+    margin: 10px;
+}
+
+.slick-arrow::before {
+    color: #fad200;
+}
+
+.slick-slide {
+    transition: background-color 1s;
+}

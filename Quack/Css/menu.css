@@ -1,0 +1,44 @@
+.fixedTopMenu {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftMenu, .logoNav, .rightMenu {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.logoNav {
+    flex: 0.7;
+}
+
+.leftMenu > *, .logoNav > div, .rightMenu > * {
+    flex: 1;
+    line-height: 60px;
+    background-color: #fff;
+    color: black;
+}
+
+.fixedTopMenu > div > input[type=submit] {
+    color: black;
+}
+
+.fixedTopMenu > div > * {
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+
+.fixedTopMenu > div > *:hover:not(a) {
+    background-color: #fad200;
+}

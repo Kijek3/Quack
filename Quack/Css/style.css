@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active {
+    background-color: #fad200;
+}
+
+body {
+    /* min-width: 900px; */
+    /* width: 1920px; */
+}

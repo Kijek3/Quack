@@ -1,0 +1,50 @@
+.loginForm {
+    margin: 20px auto;
+    width: 60%;
+    /* text-align: center; */
+}
+
+.loginForm>h2, .loginForm>#errorLabel {
+    text-align: center;
+}
+
+.formRow {
+    font-size: 20px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formRow>label {
+    flex: 0.1;
+    margin-right: 10px;
+}
+
+.formRow > input,
+.formRow > textarea {
+    flex: 0.88;
+    padding: 10px;
+}
+
+.loginForm>input[type="submit"] {
+    padding: 10px;
+    float: right;
+    margin-left: 15px;
+}
+
+.loginForm #loginButton, .loginForm #registerButton, .loginForm #sendButton {
+    background-color: rgb(39, 190, 51);
+}
+
+    .loginForm #loginButton:hover, .loginForm #registerButton:hover, .loginForm #sendButton:hover {
+        background-color: rgb(91, 211, 101);
+    }
+
+.loginForm #registerRedirect, .loginForm #loginRedirect {
+    background-color: rgb(39, 109, 190);
+}
+
+.loginForm #registerRedirect:hover, .loginForm #loginRedirect:hover {
+    background-color: rgb(91, 147, 211);
+}
